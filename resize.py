@@ -25,7 +25,10 @@ else:
     cv2.waitKey(0)
 
     #compare size and print
+    #     img=cv2.imread("pp.jpeg")
+#     print(img.shape)
+#     img2=cv2.imread("new_img.jpeg")
+#     print(img2.shape)
     print(cv2.imread("pp.jpeg").shape)
-    img2 = cv2.imread("new_image.jpeg")
     print( cv2.imread("new_image.jpeg").shape)
  

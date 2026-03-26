@@ -1,30 +1,12 @@
-# 🖼️ Image Resizer using OpenCV
+# 🖼️ OpenCV Image Resizer
 
-A simple Python project to resize images and compare their dimensions.
+A simple Python tool to resize images and compare dimensions using OpenCV.
 
 ## 🚀 Features
 - Resize image by percentage
-- Save resized image
-- Display output
-- Compare original and resized size(updated to one line code)
+- Save resized image automatically
+- Compare original vs resized dimensions
 
-## 📂 Project Structure
-main.py → main script  
-pp.jpeg → input image  
-output/ → resized image  
-
-## ⚙️ Installation
-pip install -r requirements.txt
-
-## ▶️ Run
+## 📂 Usage
+```bash
 python main.py
-
-## 🧠 Tech Used
-- Python
-- OpenCV
-
-## 📌 Output
-Prints original and resized image size in terminal.
-
-## 👤 Author
-Yoshita Sharma

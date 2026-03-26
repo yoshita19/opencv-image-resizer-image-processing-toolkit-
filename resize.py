@@ -11,7 +11,9 @@ if img is None:
     print("Image not found")
 else:
     # Resize logic
-    scale = 50
+    #scale = 50
+    #user input
+    scale = int(input("Enter resize %: "))
     width = int(img.shape[1] * scale / 100)
     height = int(img.shape[0] * scale / 100)
 
